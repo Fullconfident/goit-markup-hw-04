@@ -229,6 +229,11 @@ padding-left: 32px;
 margin-top: 30px;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--main-color);
+    background-color: #188ce8;
+}
 /*----------------feature-----------------*/
 
 .feature {
@@ -420,20 +425,16 @@ border-radius: 0px 0px 4px 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:#AFB1B8;
 }
 
 .customers-icon {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
-.customers-logo:hover
+.customers-logo:hover,
 .customers-logo:focus {
-    border-color: var(--second-main-color);
-}
-
-.customers-logo:hover .customers-icon:hover,
-.customers-logo:focus .customers-icon:focus {   
-    fill: var(--second-main-color);
+    color:var(--second-main-color);
     border-color: var(--second-main-color);
 }
 /*----------------footer-----------------*/
