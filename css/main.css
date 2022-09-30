@@ -334,7 +334,7 @@ color: var(--second-main-color);
     .footer-conteiner {
         display: flex;
         align-items: baseline;
-        gap: 70px;
+        margin-left: 70px;
     }
     
     .footer-soc-icon {
